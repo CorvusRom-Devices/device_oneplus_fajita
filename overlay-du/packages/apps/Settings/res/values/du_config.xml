@@ -14,4 +14,9 @@
 
     <!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">true</bool>
+    
+    <!-- Corvus maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="corvus_maintainer">Chandu</string>
+
 </resources>
