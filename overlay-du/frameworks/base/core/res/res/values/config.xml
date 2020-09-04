@@ -400,7 +400,7 @@
     <dimen name="status_bar_height_landscape">80px</dimen>
    
     <!-- Whether device has notification LED -->
-    <bool name="config_hasNotificationLed">false</bool>
+    <bool name="config_hasNotificationLed">true</bool>
 
     <!-- Whether to show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
