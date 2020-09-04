@@ -4,8 +4,8 @@
     "target_path" : "device/oneplus/sdm845-common"
   },
   {
-    "repository"  : "recovery_twrp_evox",
-    "target_path" : "recovery/twrp/evox/device/oneplus/fajita",
+    "repository"  : "recovery_twrp_black",
+    "target_path" : "recovery/twrp/black/device/oneplus/fajita",
     "branch"      : "fajita",
     "clone-depth" : "1"
   }

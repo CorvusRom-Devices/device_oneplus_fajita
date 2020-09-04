@@ -29,8 +29,8 @@ EXTRA_FOD_ANIMATIONS := true
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
-# Prebuilt TWRP recovery
-TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/twrp/evox/device/oneplus/fajita/ramdisk-recovery.cpio
+# Prebuilt TWRP BLACK recovery
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/twrp/black/device/oneplus/fajita/ramdisk-recovery.cpio
 
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
