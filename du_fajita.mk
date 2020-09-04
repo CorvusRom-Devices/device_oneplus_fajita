@@ -21,11 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Official
-CUSTOM_BUILD_TYPE := OFFICIAL
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -38,7 +35,8 @@ TARGET_INCLUDE_WIFI_EXT := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.device=OnePlus6T
 
-PRODUCT_NAME := aosp_fajita
+# Device identifier. This must come after all inclusions.
+PRODUCT_NAME := du_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
