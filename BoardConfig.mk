@@ -19,6 +19,8 @@
 
 DEVICE_PATH := device/oneplus/fajita
 
+TARGET_OTA_ASSERT_DEVICE := fajita,OnePlus6T,oneplus6T
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
@@ -34,3 +36,5 @@ TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/twrp/black/device/oneplus/faji
 
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
+
+TARGET_OTA_ASSERT_DEVICE := OnePlus6T
