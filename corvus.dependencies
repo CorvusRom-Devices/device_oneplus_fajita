@@ -6,7 +6,7 @@
     "remote"      : "github"
   },
   {  
-    "repository"  : "CorvusRom-Device/recovery_twrp_black",
+    "repository"  : "CorvusRom-Devices/recovery_twrp_black",
     "target_path" : "recovery/twrp/black/device/oneplus/fajita",
     "branch"      : "fajita",
     "clone-depth" : "1",
