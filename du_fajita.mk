@@ -27,6 +27,9 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#FOD Animation
+EXTRA_FOD_ANIMATIONS := true
+
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
