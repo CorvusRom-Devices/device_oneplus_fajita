@@ -405,9 +405,6 @@
     <!-- Whether to show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
 
-    <!-- Default fod pressed icon -->
-    <integer name="config_pressed_fod_icon">6</integer>
-
     <!-- Default radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">45px</dimen>
 
