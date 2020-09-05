@@ -1,0 +1,26 @@
+[
+  {
+    "repository"  : "CorvusRom-Devices/device_oneplus_sdm845-common",
+    "target_path" : "device/oneplus/sdm845-common"
+    "branch"      : "10",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "CorvusRom-Devices/kernel_oneplus_sdm845",
+    "target_path" : "kernel/oneplus/sdm845",
+    "branch"      : "10",
+    "remote"      : "github"
+  },   
+  {
+    "repository"  : "CorvusRom-Devices/vendor_oneplus",
+    "target_path" : "vendor/oneplus",
+    "branch"      : "10",
+    "remote"      : "github"
+  },
+  {  
+    "repository"  : "recovery_twrp_black",
+    "target_path" : "recovery/twrp/black/device/oneplus/fajita",
+    "branch"      : "fajita",
+    "clone-depth" : "1"
+  }
+]
