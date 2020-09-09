@@ -25,6 +25,7 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Boot Animation
+scr_resolution := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
 #FOD Animation
