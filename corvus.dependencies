@@ -2,7 +2,7 @@
   {
     "repository"  : "CorvusRom-Devices/device_oneplus_sdm845-common",
     "target_path" : "device/oneplus/sdm845-common",
-    "branch"      : "10-wip",
+    "branch"      : "10",
     "remote"      : "github"
   },
   {  
