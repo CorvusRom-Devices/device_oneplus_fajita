@@ -9,3 +9,9 @@ rm -rf packages/apps/Settings
 
 echo "cloning packages/apps/Settings from 11-fod branch"
 git clone https://github.com/Corvus-R/android_packages_apps_Settings -b 11-fod packages/apps/Settings
+
+echo "deleting packages/apps/RavenLair from 11 branch"
+rm -rf packages/apps/RavenLair
+
+echo "cloning packages/apps/RavenLair from 11-fod branch"
+git clone https://github.com/Corvus-R/android_packages_apps_RavenLair -b 11-fod packages/apps/RavenLair
